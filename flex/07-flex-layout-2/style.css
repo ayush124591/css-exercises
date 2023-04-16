@@ -1,3 +1,87 @@
+/*         comment            */
+.container {
+  display : flex ; 
+  flex-direction : column ;
+  height : 100vh ;
+  justify-content: space-between;
+  
+}
+ul {
+  padding:5px;
+}
+li {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color : white;
+}
+.header {
+  display : flex;
+  align-items : center ;
+  padding-left : 10px;
+}
+.wrapper {
+
+  width : 1200px;
+  height : 100%;
+  justify-content:  space-evenly;
+  display : flex;
+  flex-direction: column;
+}
+.header > div {
+  font-weight:900;
+  font-size : 45px;
+}
+.middle {
+  flex : 1;
+  display : flex; 
+}
+.card {
+  flex : 1 1 0%;
+}
+.upper-three , .lower-three {
+  display:flex ; 
+  gap : 50px;
+  height : 350px;
+  justify-content : space-evenly ;
+
+}
+
+.card-container {
+  flex : 1 1 auto;
+  width : 300px;
+  flex-wrap: wrap ;
+  display : flex;
+}
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower {
+  height : min-content ; 
+font-size: 20px;;
+}
+
+/*          code                */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -11,7 +95,7 @@ body {
 }
 
 .footer {
-  height: 72px;
+  height : 72px;
   background: #eee;
   color: darkmagenta;
 }
